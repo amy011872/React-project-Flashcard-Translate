@@ -141,7 +141,7 @@ export default function Translate() {
             </Button>
           </form>
         </Grid>
-        <Grid md item className={classes.gridItem}>
+        <Grid md item className="gridItem">
           <Typography variant="h6" gutterBottom>
             {textOutput}
           </Typography>
