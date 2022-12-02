@@ -1,0 +1,192 @@
+body {
+    background-color: #456990;
+}
+#header {
+    color: #fcd68f;
+    width: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    font-size: 3.5em;
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #456990;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    margin-left: 1000px;
+}
+
+.nav ul li {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between; 
+    color: rgb(197, 220, 246);
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(197, 220, 246);
+}
+
+#link2favor {
+    border: 1px solid rgb(197, 220, 246);
+    border-radius: 2em;
+    padding: 12px 10px;
+    margin: 2px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.row.center {
+    align-items: center;
+}
+.col-1 {
+    flex: 1;
+}
+.col-2 {
+    flex: 3;
+}
+.block {
+    padding: 1rem;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    box-shadow: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btn-ex {
+    color: white;
+    background-color: #f6ae2d;
+}
+
+.btn-favor {
+    color: white;
+    background-color: #e6815f;
+    margin-left: 6px;
+}
+
+.btn-remove {
+    color: #e6815f;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.Card {
+    color: #114b5f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #456990;
+    padding: 20px;
+    box-shadow: #293241 10px;
+}
+
+.vocabulary {
+    width: 450px;
+    background-color: #99c4db;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 3px 2px #114b5f;
+}
+
+.pos {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.id {
+    color: white;
+}
+
+.Contents {
+    color: #e0fbfc;
+    background-color: #293241;
+    border-radius: 2px;
+    padding: 8px;
+    margin: auto;
+}
+
+#ex-sent {
+    color: white;
+}
+
+.favor-page {
+    color: white;
+    background-color: #e6815f;
+    padding-top: 20px;
+    margin-top: 60px;
+    border-radius: 0.5em;
+    margin-right: 120px;
+}
+
+.favor-words {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1d2b44;
+}
+
+.link {
+    color: #fcd68f;
+    text-decoration: none;
+  }
+
+.btnGroup {
+    color: "#fcd68f";
+  }
+
+.card {
+    height: "100%";
+    display: "flex";
+    flex-direction: "column";
+  }
+
+ .cardMedia {
+    padding-top: "56.25%";
+  }
+
+.cardContent {
+    flex-grow: 1;
+  }
+
+.lang {
+    color: "#ffffff";
+    padding-bottom: 10;
+  }
+
+.jokes {
+    color: "#fcd68f";
+    padding-bottom: 35;
+  }
+  
+.btnTrans {
+    color: "#eeeeee";
+  }
+
+.gridItem {
+    display: "flex";
+    align-items: "center";
+    justify-content: "center";
+    padding-bottom: 10;
+  }
