@@ -8,10 +8,8 @@ import {
   CardContent,
   Typography,
 } from "@mui/material";
-import useStyles from "./style";
 
 export default function About() {
-  const classes = useStyles();
   return (
     <Box
       sx={{
@@ -25,13 +23,13 @@ export default function About() {
     >
       <Header title={"ABOUT"} />
       <Container maxWidth="sm" align="left">
-        <Card className={classes.card}>
+        <Card className="card">
           <CardMedia
-            className={classes.cardMedia}
+            className="cardMedia"
             image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIehkWNz0RnDdCo5sB1H3DTePjD1cXigpQSw&usqp=CAU"
             title="IMG title"
           />
-          <CardContent className={classes.cardContent}>
+          <CardContent className="cardContent">
             <Typography gutterBottom variant="h5">
               周昕妤 (Amy Chou)
             </Typography>
