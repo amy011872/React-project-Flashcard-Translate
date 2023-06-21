@@ -1,2 +1,2 @@
-# React_project_1
+# React-project_Flashcard-Translate
 Google translate API, flashcard, and routing
